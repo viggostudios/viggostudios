@@ -1,0 +1,8 @@
+{
+  "name": "Viggo Studios - Digital Media Production",
+  "description": "Premium landing page for Viggo Studios, a digital media production studio specializing in design, video editing, branding, and strategy.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
