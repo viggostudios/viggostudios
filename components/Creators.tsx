@@ -16,8 +16,8 @@ const Creators: React.FC = () => {
       name: "Lucas Sampaio",
       role: "Co-fundador",
       image: lucasImg,
-      about: "Estrategista audiovisual e especialista em pós-produção. Lucas foca na inteligência técnica e narrativa, garantindo que cada vídeo não seja apenas bonito, mas uma ferramenta poderosa de conversão e retenção.",
-      specialties: ["Edição Pro", "Estratégia", "Audiovisual"]
+      about: "Especialista em converter metas de negócio em conteúdos de alto impacto, aliando uma gestão de processos eficiente à inovação criativa. Unindo competências avançadas no audiovisual, design e estrategia. realiza entrega de resultados que equilibram excelência estética, fluidez operacional e experiência visual, focando no que realmente funciona na atualidade.",
+      specialties: ["Estratégia audiovisual", "Desenvolvimento de projeto", "Gestão de fluxo" , "Inovação e criação de narrativas visuais" , "Coordenação criativa" , "Marketing Sensorial"]
     }
   ];
 
