@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 const LogoIcon = () => (
-  <svg className="w-48 h-48 md:w-72 md:h-72 filter drop-shadow-[0_0_30px_rgba(139,92,246,0.4)]" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className="w-48 h-48 md:w-72 md:h-72 filter drop-shadow-[0_0_30px_rgba(139,92,246,0.4)] mx-auto" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M20 30L50 80L80 30H65L50 55L35 30H20Z" fill="currentColor" className="animate-pulse" />
     <path d="M10 30L45 88L50 80L20 30H10Z" fill="currentColor" opacity="0.6" />
     <path d="M90 30L55 88L50 80L80 30H90Z" fill="currentColor" opacity="0.6" />
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
         </video>
       </div>
 
-      <div className="max-w-7xl mx-auto w-full px-8 sm:px-12 lg:px-16 text-left relative z-20">
+      <div className="max-w-7xl mx-auto w-full px-8 sm:px-12 lg:px-16 text-center relative z-20 flex flex-col items-center">
         {/* Badge */}
         <div className="inline-block px-5 py-2 rounded-full bg-violet-500/20 border border-violet-500/30 mb-12 backdrop-blur-lg animate-fade-up">
           <h2 className="text-violet-600 dark:text-violet-400 text-xs md:text-sm font-bold uppercase tracking-[0.5em] leading-none">
@@ -65,17 +65,17 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Featured Logo */}
-        <div className="text-violet-600 dark:text-violet-500 animate-fade-up [animation-delay:200ms] mb-12">
+        <div className="text-violet-600 dark:text-violet-500 animate-fade-up [animation-delay:200ms] mb-12 flex justify-center">
           <LogoIcon />
         </div>
         
-        <div className="overflow-hidden-animate mb-12">
+        <div className="overflow-hidden-animate mb-12 flex justify-center">
           <p className="max-w-2xl text-slate-700 dark:text-gray-200 text-lg md:text-2xl font-normal leading-relaxed animate-text-reveal [animation-delay:400ms]">
             A <span className="text-violet-600 dark:text-white font-bold border-b-2 border-violet-500/30 uppercase">Viggo Studios</span> transforma marcas através de design, audiovisual e inteligência técnica. Criamos ativos digitais de alto valor.
           </p>
         </div>
         
-        <div className="flex flex-col sm:flex-row items-start justify-start gap-6 animate-fade-up [animation-delay:600ms]">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-fade-up [animation-delay:600ms]">
           <Link
             to="/briefing"
             className="group relative w-full sm:w-auto px-12 py-5 bg-violet-600 text-white font-bold rounded-2xl transition-all duration-500 overflow-hidden shadow-lg uppercase tracking-widest"
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
           </Link>
         </div>
 
-        <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl animate-fade-up [animation-delay:800ms]">
+        <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl animate-fade-up [animation-delay:800ms] w-full">
           {[
             { value: '100+', label: 'Projetos' },
             { value: '50+', label: 'Clientes Satisfeitos' },
