@@ -6,14 +6,14 @@ const Creators: React.FC = () => {
     {
       name: "David Kaio",
       role: "Co-fundador",
-      image: "C:\\viggo-studios---digital-media-production\\fotos\\david.png",
+      image: "img src="img/david.png" alt="david",
       about: "Especialista multidisciplinar focado na excelência visual. Com olhar aguçado para estética minimalista e técnica avançada, David lidera a direção de arte da Viggo, unindo design estratégico e criatividade para transformar conceitos em ativos de alto impacto.",
       specialties: ["Direção de Arte", "Design", "Audiovisual", "Modelagem", "Ilustração", "Diagramação", "Vetorização"]
     },
     {
       name: "Lucas Sampaio",
       role: "Co-fundador",
-      image: "C:\\viggo-studios---digital-media-production\\fotos\\lucas.jpg",
+      image: "img src="img/lucas.jpg" alt="lucas",
       about: "Estrategista audiovisual e especialista em pós-produção. Lucas foca na inteligência técnica e narrativa, garantindo que cada vídeo não seja apenas bonito, mas uma ferramenta poderosa de conversão e retenção.",
       specialties: ["Edição Pro", "Estratégia", "Audiovisual"]
     }
