@@ -11,7 +11,7 @@ const LogoIcon = () => (
   <img
   src="/logo.svg"
   alt="Viggo Studios Logo"
-  className="w-8 md:w-10 h-auto"
+  className="w-6 md:w-8 h-auto"
 />
 );
 
