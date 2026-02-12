@@ -8,7 +8,7 @@ const LogoIcon = () => (
   alt="Viggo Studios Logo"
   className="w-32 md:w-44 mx-auto
 drop-shadow-[0_0_30px_rgba(139,92,246,0.5)]
-hover:scale-105
+hover:scale-130
 transition-all duration-500"
 />
 );
