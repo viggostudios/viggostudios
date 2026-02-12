@@ -3,11 +3,14 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 const LogoIcon = () => (
-  <svg className="w-48 h-48 md:w-72 md:h-72 filter drop-shadow-[0_0_30px_rgba(139,92,246,0.4)] mx-auto" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M20 30L50 80L80 30H65L50 55L35 30H20Z" fill="currentColor" className="animate-pulse" />
-    <path d="M10 30L45 88L50 80L20 30H10Z" fill="currentColor" opacity="0.6" />
-    <path d="M90 30L55 88L50 80L80 30H90Z" fill="currentColor" opacity="0.6" />
-  </svg>
+  <img
+  src="/logo.svg"
+  alt="Viggo Studios Logo"
+  className="w-56 md:w-72 mx-auto 
+             drop-shadow-[0_0_30px_rgba(139,92,246,0.5)]
+             hover:scale-105 
+             transition-all duration-500"
+/>
 );
 
 const Hero: React.FC = () => {
