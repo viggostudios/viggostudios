@@ -6,10 +6,10 @@ const LogoIcon = () => (
   <img
   src="/logo.svg"
   alt="Viggo Studios Logo"
-  className="w-30 md:w-42 mx-auto 
-             drop-shadow-[0_0_30px_rgba(139,92,246,0.5)]
-             hover:scale-105 
-             transition-all duration-500"
+  className="w-32 md:w-44 mx-auto
+drop-shadow-[0_0_30px_rgba(139,92,246,0.5)]
+hover:scale-105
+transition-all duration-500"
 />
 );
 
