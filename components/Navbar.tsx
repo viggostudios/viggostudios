@@ -8,11 +8,11 @@ interface NavbarProps {
 }
 
 const LogoIcon = () => (
-  <svg className="w-8 h-8 md:w-10 md:h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M20 30L50 80L80 30H65L50 55L35 30H20Z" fill="currentColor" />
-    <path d="M10 30L45 88L50 80L20 30H10Z" fill="currentColor" opacity="0.6" />
-    <path d="M90 30L55 88L50 80L80 30H90Z" fill="currentColor" opacity="0.6" />
-  </svg>
+  <img
+  src="/logo.svg"
+  alt="Viggo Studios Logo"
+  className="w-8 md:w-10 h-auto"
+/>
 );
 
 const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
