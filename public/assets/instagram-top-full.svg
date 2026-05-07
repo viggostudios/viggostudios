@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="ig" x1="64" y1="448" x2="448" y2="64" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FEDA75"/>
+    <stop offset="0.28" stop-color="#FA7E1E"/>
+    <stop offset="0.55" stop-color="#D62976"/>
+    <stop offset="0.78" stop-color="#962FBF"/>
+    <stop offset="1" stop-color="#4F5BD5"/>
+  </linearGradient>
+</defs>
+<rect width="512" height="512" rx="120" fill="url(#ig)"/>
+<path d="M256 164C205.19 164 164 205.19 164 256C164 306.81 205.19 348 256 348C306.81 348 348 306.81 348 256C348 205.19 306.81 164 256 164ZM256 315C223.415 315 197 288.585 197 256C197 223.415 223.415 197 256 197C288.585 197 315 223.415 315 256C315 288.585 288.585 315 256 315Z" fill="white"/>
+<path d="M373 159C373 170.046 364.046 179 353 179C341.954 179 333 170.046 333 159C333 147.954 341.954 139 353 139C364.046 139 373 147.954 373 159Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M161 96H351C386.899 96 416 125.101 416 161V351C416 386.899 386.899 416 351 416H161C125.101 416 96 386.899 96 351V161C96 125.101 125.101 96 161 96ZM161 130C143.879 130 130 143.879 130 161V351C130 368.121 143.879 382 161 382H351C368.121 382 382 368.121 382 351V161C382 143.879 368.121 130 351 130H161Z" fill="white"/>
+</svg>
